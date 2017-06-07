@@ -8,11 +8,11 @@ This is a WIP control scheme for the Thrustmaster T.16000M FCS HOTAS system.  I 
 
 A fair number of the controls haven't changed but there were too many key functions for things like combat that were mapped to the buttons on the base of the stick, which in combat made them next to useless.
 
-What was the ships boost button has been turned into an ALT button for accessing multiple functions on the same buttons.  Having a dedicated boost button was too dangerous - it nearly cost me an Anaconda!
+What was the ships boost button has been turned into an ALT button for accessing multiple functions on the same buttons.  Having a dedicated boost button was too ... er ... dangerous - it nearly cost me an Anaconda!
 
 # SRV Controls
 
-The SRV controls are almost identical to the ship controls. 
+The SRV controls are almost identical to the ship controls.  The mapping for the ships boost function in the SRV switches to the turret control.
 
 # Camera Controls
 
@@ -29,6 +29,27 @@ This supplied control scheme does not require TARGET to be installed.  If you wa
 When I first attempted to use the TARGET software the stick was rendered completely inoperable.  The TARGET software installs and manages a virtual device and then controls the game through a profile.  On many systems it seems that this virtual device is problematic and conflicts with Windows power management.
 
 If I find the need in the future to go deeper into the programming of this HOTAS I will investigate the power management issues some more and offer up some kind of batch file for configuring this but so far I have been happy with just plain mapping the physical controls of the HOTAS.
+
+# Tweaks You May Need To Make
+
+The index finger mini analogue joystick is a very nice feature (not in the right place, but hey we can't have it all) I have included in the mapping the smallest possible deadzone for my particular throttle.  Because this stick never quite manages to return to absolute zero every time without a deadzone this can result in constant ship movement, albeit slowly, this isn't ideal.
+
+Your particular stick may need a slightly larger deadzone, or if you're really lucky you could get away with a smaller deadzone.  You can tweak this easily within Elite.
+
+Currently the deadzone is tiny, the entries in the mapping file look like this:
+
+```xml
+<LateralThrustRaw>
+	<Binding Device="T16000MTHROTTLE" Key="Joy_XAxis" />
+	<Inverted Value="0" />
+	<Deadzone Value="0.03000000" />
+</LateralThrustRaw>
+<VerticalThrustRaw>
+	<Binding Device="T16000MTHROTTLE" Key="Joy_YAxis" />
+	<Inverted Value="1" />
+	<Deadzone Value="0.03000000" />
+</VerticalThrustRaw>
+```
 
 # Installation Instructions
 
