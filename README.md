@@ -8,7 +8,7 @@ This is a WIP control scheme for the Thrustmaster T.16000M FCS HOTAS system.  I 
 
 A fair number of the controls haven't changed but there were too many key functions for things like combat that were mapped to the buttons on the base of the stick, which in combat made them next to useless.
 
-What was the ships boost button has been turned into an ALT button for accessing multiple functions on the same buttons.  Having a dedicated boost button was too ... er ... dangerous - it nearly cost me an Anaconda!
+What was the ships dedicated boost button has been turned into an ALT button for allowing access to multiple functions on single buttons or hats.  Having a dedicated boost button was too ... er ... dangerous - it nearly cost me an Anaconda!
 
 # SRV Controls
 
@@ -16,19 +16,19 @@ The SRV controls are almost identical to the ship controls.  The mapping for the
 
 # Camera Controls
 
-There is a pretty full compliment of camera controls included in the mapping, including control for the free camera.
+There is a pretty full compliment of camera controls included in the mapping, including control for the free camera.  See the cheat sheet for details on those.
 
 # Unmapped Controllers
 
-So far nothing has been mapped to the castle hat on the throttle but in a future version this could be used for the wingman controls.
+So far nothing has been mapped to the castle hat on the throttle but in a future version this could be used for the wingman controls.  There are also a number of unmapped buttons which will eventually get used for things as the mapping evolves over time.
 
-# TARGET Software Issues
+# TARGET Software
 
-This supplied control scheme does not require TARGET to be installed.  If you want to use this mapping you can safely uninstall the TARGET programming suite.
+This control scheme does not require the Thrustmaster TARGET software to be installed.  If you want to use this mapping you can safely uninstall the TARGET programming suite.
 
-When I first attempted to use the TARGET software the stick was rendered completely inoperable.  The TARGET software installs and manages a virtual device and then controls the game through a profile.  On many systems it seems that this virtual device is problematic and conflicts with Windows power management.
+When I attempted to use the TARGET software the stick was rendered completely inoperable when using a TARGET profile.  The TARGET software installs and manages a virtual DirectX device and then controls the game through that device.  On many systems it seems that this virtual device is problematic and conflicts with Windows power management.
 
-If I find the need in the future to go deeper into the programming of this HOTAS I will investigate the power management issues some more and offer up some kind of batch file for configuring this but so far I have been happy with just plain mapping the physical controls of the HOTAS.
+If I find the need in the future to go deeper into the programming of this HOTAS I will investigate the power management issues some more and offer up some kind of batch file or advice for configuring this correctly but so far I have been happy with just  mapping the physical controls of the HOTAS.
 
 # Tweaks You May Need To Make
 
@@ -53,7 +53,7 @@ Currently the deadzone is tiny, the entries in the mapping file look like this:
 
 # Installation Instructions
 
-To install the mapping you need to find your local Bindings directory.  You'll probably find it here:
+To install the mapping you need to find your local Elite Bindings directory.  You'll probably find it here:
 
 C:\Users\<your user name>\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings
 
@@ -62,7 +62,7 @@ Copy these two files into that location:
 CMDJamski-T16000M-FCS-HOTAS-V1.0.2.0.binds
 StartPreset.start
 
-Then startup your game.  By including this StartPreset.start file you are simply configuring this mapping as the default one to use.
+Then startup your game, this mapping will already be set as the default by including the StartPreset.start.  This file is simply configuring the CMDJamski-T16000M-FCS-HOTAS-V1.0.2.0.binds mapping as the default one to use.  This wont overwrite any existing mapping files.  But as always MAKE BACKUPS ANYWAY.
 
 # Cheat Sheet
 
@@ -78,4 +78,4 @@ HAPPY FLIGHTS AHOY!!
 
 O7
 
-CMDRJamski over and out!
+# CMDRJamski over and out!
