@@ -1,5 +1,5 @@
 ![Elite logo](elitelogo.png?raw=true)
-# CMDJamski-T16000M-FCS-HOTAS v1.0
+# CMDRJamski-T16000M-FCS-HOTAS v1.0
 An ever expanding Elite Dangerous control scheme for the Thrustmaster T16000M FCS HOTAS system
 
 This is a WIP control scheme for the Thrustmaster T.16000M FCS HOTAS system.  I really didn't like the layout of the default scheme provided by Elite Dangerous so I set about modifying it to my liking.
