@@ -60,6 +60,7 @@ C:\Users\<your user name>\AppData\Local\Frontier Developments\Elite Dangerous\Op
 Copy these two files into that location:
 
 CMDJamski-T16000M-FCS-HOTAS-V1.0.2.0.binds
+
 StartPreset.start
 
 Then startup your game, this mapping will already be set as the default by including the StartPreset.start.  This file is simply configuring the CMDJamski-T16000M-FCS-HOTAS-V1.0.2.0.binds mapping as the default one to use.  This wont overwrite any existing mapping files.  But as always MAKE BACKUPS ANYWAY.
