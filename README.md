@@ -55,15 +55,15 @@ Currently the deadzone is tiny, the entries in the mapping file look like this:
 
 To install the mapping you need to find your local Elite Bindings directory.  You'll probably find it here:
 
-C:\Users\<your user name>\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings
+`C:\Users\<your user name>\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings`
 
 Copy these two files into that location:
 
-CMDJamski-T16000M-FCS-HOTAS-V1.0.2.0.binds
+`CMDJamski-T16000M-FCS-HOTAS-V1.0.3.0.binds`
 
 StartPreset.start
 
-Then startup your game, this mapping will already be set as the default by including the StartPreset.start.  This file is simply configuring the CMDJamski-T16000M-FCS-HOTAS-V1.0.2.0.binds mapping as the default one to use.  This wont overwrite any existing mapping files.  But as always MAKE BACKUPS ANYWAY.
+Then startup your game, this mapping will already be set as the default by including the StartPreset.start.  This file is simply configuring the CMDJamski-T16000M-FCS-HOTAS-V1.0.3.0.binds mapping as the default one to use.  This wont overwrite any existing mapping files.  But as always MAKE BACKUPS ANYWAY.
 
 # Cheat Sheet
 
