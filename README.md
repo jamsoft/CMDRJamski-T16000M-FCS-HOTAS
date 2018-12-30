@@ -71,6 +71,13 @@ I've created a cheat sheet that details all the included mappings which you can 
 
 ![Cheat Sheet](CMDRJamski-TM-FCS-CheatSheet.png?raw=true "Cheat Sheet")
 
+# Full Mapping
+
+![Joystick Mapping](eybipp-t16000mfcs.jpg?raw=true "Joystick Mapping")
+![Keyboard Mapping](eybipp-keyboard.jpg?raw=true "Keyboard Mapping")
+
+Created with https://edrefcard.info/
+
 # Reporting Issues
 
 If you find any problems or what you consider to be a better idea for the mapping open a GitHub issue for discussion and/or fix.
